@@ -4,7 +4,8 @@
   "description": "A simple web app that produces a text file template based on a checklist",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files *"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/rhvdbergh/template_creator/issues"
   },
-  "homepage": "https://github.com/rhvdbergh/template_creator#readme"
+  "homepage": "https://github.com/rhvdbergh/template_creator#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
+  }
 }
