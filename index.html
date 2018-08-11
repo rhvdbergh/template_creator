@@ -7,6 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/custom.css">
 
     <title>Template creator</title>
   </head>
@@ -14,40 +17,28 @@
 
       <!-- Heading -->
     <div class="jumbotron ">
-        <h1 class="display-4 justify-content-center">Template creator!</h1>
+        <h1 class="display-4">Template creator!</h1>
       </div>
 
-    <!-- Checkboxes -->
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <div class="input-group-text">
-            <input type="checkbox" aria-label="Checkbox for following text input">
-          </div>
+    <!-- Content area -->
+    <div class="container">
+      <!-- Checkboxes -->
+    
+      <form>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">List item 1</label>
         </div>
-        <p>Sample text. Click me if you want to add the first label to template.</p> 
-    </div>
-
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <div class="input-group-text">
-          <input type="checkbox" aria-label="Checkbox for following text input">
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck2">
+          <label class="form-check-label" for="exampleCheck1">List item 2</label>
         </div>
-      </div>
-      <p>Sample text. Click me if you want to add a second label to template.</p>       
-    </div>
-
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <div class="input-group-text">
-          <input type="checkbox" aria-label="Checkbox for following text input">
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck3">
+          <label class="form-check-label" for="exampleCheck1">List item 3</label>
         </div>
-      </div>
-      <p>Sample text. Click me if you want to add this third to template.</p> 
-    </div>
-
-    <!-- Submit button -->
-        <button type="button" class="btn btn-primary">Submit and create template</button>
-      
+        <button type="submit" class="btn btn-primary btn-generate">Generate Template Text File</button>
+      </form>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
